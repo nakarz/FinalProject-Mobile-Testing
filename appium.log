@@ -2002,3 +2002,51 @@
 [35m[WD Proxy][39m Replacing sessionId 929c12d4-fc71-4691-9948-de77c167e947 with 6cafab45-cd2f-449d-b53d-fb2e731f98fe
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/element/00000000-0000-0019-ffff-ffff00000276/size [39m[32m200[39m [90m11 ms - 87[39m
 [35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (6cafab45)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 929c12d4-fc71-4691-9948-de77c167e947 with 6cafab45-cd2f-449d-b53d-fb2e731f98fe
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/source [39m[32m200[39m [90m24 ms - 10790[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/screenshot [39m[32m200[39m [90m313 ms - 104290[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Toast' and (@text = 'Incorrect Username or Password' or . = 'Incorrect Username or Password')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/elements [39m[32m200[39m [90m1027 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Toast\").text(\"Incorrect Username or Password\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/elements [39m[32m200[39m [90m1379 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":1000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.Toast\").text(\"Incorrect Username or Password\").packageName(\"com.android.settings\").index(1)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/elements [39m[32m200[39m [90m1021 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":1000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.Toast[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/elements [39m[32m200[39m [90m1036 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":1000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.Toast' and (@text = 'Incorrect Username or Password' or . = 'Incorrect Username or Password')]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe/elements [39m[32m200[39m [90m1031 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 6cafab45-cd2f-449d-b53d-fb2e731f98fe from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/6cafab45-cd2f-449d-b53d-fb2e731f98fe [39m[32m200[39m [90m272 ms - 14[39m
+[35m[HTTP][39m [90m[39m
