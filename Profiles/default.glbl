@@ -7,27 +7,27 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Jeon'</initValue>
-      <name>auth_FirstName</name>
+      <name>FirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Wonwoo'</initValue>
-      <name>auth_LastName</name>
+      <name>LastName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Wonusvt123'</initValue>
-      <name>auth_Password</name>
+      <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'Korea'</initValue>
-      <name>auth_Country</name>
+      <name>Country</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'wonwoo_svt'</initValue>
-      <name>auth_Username</name>
+      <name>Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

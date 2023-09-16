@@ -17,17 +17,34 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('TC_Authentication/1_Login/TC01_Login with valid user'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.verifyElementVisible(findTestObject('Authentication/3_Dashboard/Dashboard_titlePage-Dashboard'), 0)
+Mobile.callTestCase(findTestCase('TC_Authentication/1_Register Login/TC01_Authentication with valid user'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Authentication/3_Dashboard/Dashboard_txt-Welcome'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Authentication/3_Dashboard/Dashboard_logo-Bank'), 0)
-
 Mobile.verifyElementVisible(findTestObject('Authentication/3_Dashboard/Dashboard_msg-Dont Have Bank Acc'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Authentication/3_Dashboard/Dashboard_btn-navbar'), 0)
+Mobile.tap(findTestObject('Authentication/3_Dashboard/Dashboard_btn-Add Account'), 0)
 
-Mobile.verifyElementVisible(findTestObject('Authentication/3_Dashboard/Dashboard_btn-Add Account'), 0)
+Mobile.verifyElementVisible(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_titleModal-Add Acc'), 
+    0)
+
+Mobile.verifyElementVisible(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_btn-Add'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_btn-Cancel'), 0)
+
+Mobile.setText(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_input-Acc Name'), 'Bank Acc 1', 0)
+
+Mobile.setText(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_input-Initial Balance'), '50000', 
+    0)
+
+Mobile.tap(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_btn-Add'), 0)
+
+Mobile.tap(findTestObject('Accounts/2_Account Exists/Accounts_btn-PlusAcc'), 0)
+
+Mobile.setText(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_input-Acc Name'), 'Bank Acc 2', 0)
+
+Mobile.setText(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_input-Initial Balance'), '100000', 
+    0)
+
+Mobile.tap(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_btn-Add'), 0)
 
