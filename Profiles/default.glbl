@@ -16,8 +16,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Wonusvt123'</initValue>
-      <name>Password</name>
+      <initValue>'wonu_svt'</initValue>
+      <name>Username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -26,8 +26,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'wonwoo_svt'</initValue>
-      <name>Username</name>
+      <initValue>'Wonusvt123'</initValue>
+      <name>Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
