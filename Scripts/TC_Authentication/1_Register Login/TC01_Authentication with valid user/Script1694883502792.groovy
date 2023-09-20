@@ -19,8 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.callTestCase(findTestCase('Reusable_Test/TC0_Launch Exist App'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementVisible(findTestObject('Authentication/1_Login Page/Login_txt-titlePage-Bank App Demo'), 0)
-
 Mobile.tap(findTestObject('Authentication/1_Login Page/Login_btn_Create Profile'), 0)
 
 Mobile.verifyElementExist(findTestObject('Authentication/2_Register Page/Register_btn-Back to Login'), 0)
@@ -74,13 +72,17 @@ Mobile.tap(findTestObject('Authentication/2_Register Page/Register_btn-Create Pr
 
 Mobile.pressBack()
 
-Mobile.verifyElementVisible(findTestObject('Authentication/1_Login Page/Login_txt-titlePage-Bank App Demo'), 0)
+Mobile.verifyElementVisible(findTestObject('Authentication/1_Login Page/Login_txt-titlePage-Bank App Demo'), 10)
 
 Mobile.setText(findTestObject('Authentication/1_Login Page/Login_input-Uname'), randomUsername, 0)
 
-Mobile.waitForElementPresent(findTestObject('Authentication/1_Login Page/Login_input-Pw'), 10)
+Mobile.verifyElementVisible(findTestObject('Authentication/1_Login Page/Login_input-Pw'), 10)
 
 Mobile.setText(findTestObject('Authentication/1_Login Page/Login_input-Pw'), 'Wonusvt123', 0)
 
+Mobile.checkElement(findTestObject('Authentication/1_Login Page/Login_checkBox_Remember Credentials'), 0)
+
 Mobile.tap(findTestObject('Authentication/1_Login Page/Login_btn_Login'), 0)
+
+Mobile.pressBack()
 

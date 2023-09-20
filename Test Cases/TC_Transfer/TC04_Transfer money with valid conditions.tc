@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04_Transfer money with valid conditions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>efc6d51a-955e-41bd-8f36-17f6f6549cc2</testCaseGuid>
+</TestCaseEntity>

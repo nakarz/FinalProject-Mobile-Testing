@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('TC_Authentication/1_Register Login/TC01_Authentication with valid user'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('Reusable_Test/TC0_Launch Exist App'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.verifyElementVisible(findTestObject('Authentication/3_Dashboard/Dashboard_txt-Welcome'), 0)
 
@@ -32,7 +32,7 @@ Mobile.verifyElementVisible(findTestObject('Accounts/1_No Account Before/1_Modal
 
 Mobile.verifyElementVisible(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_btn-Cancel'), 0)
 
-Mobile.setText(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_input-Acc Name'), 'Bank Acc 1', 0)
+Mobile.setText(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_input-Acc Name'), 'Bank Acc A', 0)
 
 Mobile.setText(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_input-Initial Balance'), '50000', 
     0)
@@ -41,10 +41,16 @@ Mobile.tap(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccoun
 
 Mobile.tap(findTestObject('Accounts/2_Account Exists/Accounts_btn-PlusAcc'), 0)
 
-Mobile.setText(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_input-Acc Name'), 'Bank Acc 2', 0)
+Mobile.setText(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_input-Acc Name'), 'Bank Acc B', 0)
 
 Mobile.setText(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_input-Initial Balance'), '100000', 
     0)
 
 Mobile.tap(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_btn-Add'), 0)
+
+Mobile.pressBack()
+
+Mobile.pressBack()
+
+Mobile.pressBack()
 
