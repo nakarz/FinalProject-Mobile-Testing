@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_Create Account with No Acc</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d8268147-077e-4478-be79-5577c88134d2</testCaseGuid>
+</TestCaseEntity>
