@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Authentication with valid user</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5a0cc3b-1e3f-4d37-84ac-028a37efb1cd</testCaseGuid>
+</TestCaseEntity>
