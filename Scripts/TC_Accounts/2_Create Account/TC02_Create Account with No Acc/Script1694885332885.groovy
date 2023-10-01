@@ -48,9 +48,5 @@ Mobile.setText(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAc
 
 Mobile.tap(findTestObject('Accounts/1_No Account Before/1_Modal Card/ModalAccounts_btn-Add'), 0)
 
-Mobile.pressBack()
-
-Mobile.pressBack()
-
-Mobile.pressBack()
+Mobile.pressHome()
 

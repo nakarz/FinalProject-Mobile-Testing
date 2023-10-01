@@ -84,5 +84,5 @@ Mobile.checkElement(findTestObject('Authentication/1_Login Page/Login_checkBox_R
 
 Mobile.tap(findTestObject('Authentication/1_Login Page/Login_btn_Login'), 0)
 
-Mobile.pressBack()
+Mobile.pressHome()
 

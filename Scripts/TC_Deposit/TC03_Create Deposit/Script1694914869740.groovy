@@ -37,9 +37,5 @@ Mobile.setText(findTestObject('Deposit/Deposit_input-Enter Deposit Amount'), '50
 
 Mobile.tap(findTestObject('Deposit/Deposit_btn-Deposit'), 0)
 
-Mobile.pressBack()
-
-Mobile.pressBack()
-
-Mobile.pressBack()
+Mobile.pressHome()
 

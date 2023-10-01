@@ -85,3 +85,7 @@ $RECYCLE.BIN/
 /Libs/
 /.settings/
 /.classpath
+/bin/
+/Libs/
+/.settings/
+.svn/
