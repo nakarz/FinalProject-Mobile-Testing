@@ -8,4 +8,4 @@ Here is the test plan:
 |----------------|-------------------------------|
 |Authentication|`Register & Login with valid creds`|
 |Accounts|`Create Accounts`|
-|Transaction | `Make a Deposit` `Make a Transfer` `Make a Payment`|
+|Transaction | `Make a Deposit` `Make a Transfer`|
